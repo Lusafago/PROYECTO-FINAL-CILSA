@@ -1,6 +1,7 @@
 // EmployeeForm.js
 import React, { useState } from 'react';
 
+
 function EmployeeForm() {
   const [formData, setFormData] = useState({
     nombre: '',

@@ -1,18 +1,40 @@
 /* Navbar.css */
+/* Estilos para la barra de navegación en modo oscuro */
+.navbar-dark {
+  background-color: #1f1f1f; /* Un gris más oscuro para un look elegante */
+}
 
-/* Estilos para los items en el menú desplegable */
+.navbar-dark .navbar-brand {
+  color: #f1f1f1; /* Color claro para la marca */
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e0e0e0; /* Color gris claro para los enlaces */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff; /* Cambia a blanco en hover para resaltar */
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #fff; /* Icono blanco para el toggle */
+}
+
+/* Fondo oscuro para los menús desplegables */
 .navbar-dark .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro */
-    border: none; /* Elimina el borde del menú desplegable */
-  }
-  
-  .navbar-dark .dropdown-item {
-    color: #ffffff; /* Texto blanco para visibilidad */
-  }
-  
-  .navbar-dark .dropdown-item:hover {
-    background-color: #444444; /* Fondo gris oscuro en hover */
-    color: #ffffff; /* Mantiene el texto blanco en hover */
-  }
-  
-  
+  background-color: rgba(0, 0, 0, 0.9); /* Menú oscuro */
+  border: none;
+}
+
+/* Estilo de los ítems en el menú desplegable */
+.navbar-dark .dropdown-item {
+  color: #f1f1f1;
+}
+
+/* Hover sobre los ítems */
+.navbar-dark .dropdown-item:hover {
+  background-color: #444;
+  color: #fff;
+}
+

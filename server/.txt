@@ -1,1 +1,2 @@
-En esta carpeta ira toda la logica para la conexion de la bbdd con el frontend
+crear archivos .env en el front y en server
+en la carpeta server hacer npm install

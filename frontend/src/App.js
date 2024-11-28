@@ -14,6 +14,10 @@ import RoomsList from './components/RoomsList';
 import RoomForm from './components/RoomForm';
 import Footer from './components/Footer';
 import './Styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 function App() {
   return (
     <Router>
