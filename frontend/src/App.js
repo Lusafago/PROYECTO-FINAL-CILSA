@@ -13,8 +13,11 @@ import PaymentForm from './components/PaymentForm';
 import RoomsList from './components/RoomsList';
 import RoomForm from './components/RoomForm';
 import Footer from './components/Footer';
-import './Styles.css';
+import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Styles.css';
+import './App.css';
+
 
 
 
@@ -23,6 +26,7 @@ function App() {
     <Router>
       <NavigationBar />
       <Routes>
+      <Route path="/" element={<Home />} />
         {/* Gestión de Personas */}
         <Route path="/guests" element={<GuestsList />} />
         <Route path="/add-guest" element={<GuestForm />} />

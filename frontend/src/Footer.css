@@ -1,19 +1,21 @@
 /* Footer.css */
+/* Footer - Ajuste de fondo y color */
 .footer {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro con algo de transparencia */
+  color: #fff; /* Texto blanco */
   padding: 1rem;
-  position: relative; /* Cambia a relativo para que no se fije al fondo */
+  position: fixed;
+  bottom: 0;
   width: 100%;
   text-align: center;
   font-size: 0.9rem;
-  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.5);
- 
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.6); /* Sombra sutil para separar el pie */
 }
 
 .footer p {
   margin: 0;
   padding: 0.2rem;
 }
+
 
   
